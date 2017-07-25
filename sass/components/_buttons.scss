@@ -1,0 +1,43 @@
+@import "../helpers/variables";
+
+.button {
+  background: $btn-bg;
+  border: none;
+  border-radius: $border-radius-base;
+  box-shadow: 0 4px $btn-box-shadow-color;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: bold;
+  @include padding-x($size-32);
+  @include padding-y($size-16);
+  text-transform: uppercase;
+
+  &:hover, &:focus, &:active {
+    animation-name: bg-pulse;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  &:active {
+    box-shadow: none;
+    margin-top: 4px;
+    margin-bottom: -4px;
+  }
+}
+
+/* Back Pulse */
+@keyframes bg-pulse {
+  0% {
+    background-color: $btn-bg;
+  }
+  50% {
+    background-color: lighten($btn-bg, 10%);
+  }
+  100% {
+    background-color: $btn-bg;
+  }
+}

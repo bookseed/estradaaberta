@@ -1,0 +1,82 @@
+// Sizes
+
+$size-04: .25rem;
+$size-08: .5rem;
+$size-12: .75rem;
+$size-16: 1rem;
+$size-20: 1.25rem;
+$size-24: 1.5rem;
+$size-28: 1.75rem;
+$size-32: 2rem;
+$size-36: 2.25rem;
+$size-40: 2.5rem;
+$size-44: 2.75rem;
+$size-48: 3rem;
+$size-52: 3.25rem;
+$size-56: 3.5rem;
+$size-60: 3.75rem;
+$size-64: 4rem;
+$size-68: 4.25rem;
+$size-72: 4.5rem;
+$size-76: 4.75rem;
+$size-80: 5rem;
+$size-84: 5.25rem;
+$size-88: 5.5rem;
+$size-92: 5.75rem;
+$size-96: 6rem;
+
+// Colors
+
+$color-red: #ff2b00;
+$color-orange: #ff6633;
+$color-yellow: #ffd500;
+$color-green: #3dcc85;
+$color-blue: #00bfe6;
+$color-purple: #6652cc;
+
+$color-accent: #ff5050;
+$color-panel-light: #f8f8f8;
+$color-panel-dark: #203050;
+$color-border: #f0f0f0;
+$color-gray: #404040;
+
+// Fonts
+
+$font-circular: "Circular Std", sans-serif;
+$font-lato: "Lato", sans-serif;
+$font-roboto: "Roboto", sans-serif;
+$font-sans: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+// Border
+
+$border-radius-base: 4px;
+
+// Fonts
+
+$font-family-base: $font-circular;
+$font-size-base: $size-16;
+$font-size-h1: $size-32;
+$font-size-h2: $size-28;
+$font-size-h3: $size-24;
+$font-size-h4: $size-20;
+$font-size-h5: $size-16;
+$font-size-h6: $size-12;
+$font-weight-base: normal;
+$line-height-base: 1.5;
+
+$heading-font-family: $font-circular;
+$heading-font-weight: bold;
+$heading-line-height: 1;
+
+// Links
+
+$link-color: $color-blue;
+$link-hover-color: lighten($link-color, 10%);
+$link-hover-decoration: underline;
+
+// Buttons
+
+$btn-bg: $color-green;
+$btn-color: white;
+$btn-hover-bg: lighten($btn-bg, 10%);
+$btn-box-shadow-color: darken($btn-bg, 10%);
